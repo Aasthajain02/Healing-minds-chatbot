@@ -1,7 +1,7 @@
 import nltk
 nltk.download('popular')#  Natural Language Toolkit (NLTK) library installed will download and
 # install a collection of popular NLTK data packages, including corpora,
-# models etc
+# models etcP
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 import pickle
