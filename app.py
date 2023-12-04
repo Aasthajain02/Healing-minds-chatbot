@@ -67,5 +67,4 @@ def home():
 def get_bot_response():
     userText = request.args.get('msg')
     return chatbot_response(userText)
-if __name__ == "__main__":
-    app.run()
+
